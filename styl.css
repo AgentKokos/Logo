@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    text-align: center;
+    border: 20px inset #006a4e;
+    font-size: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 40%;
+    color: #006a4e;
+	font-family: 'Brush Script MT', cursive;
+    margin-top: 100px;
+}
+.logo:hover{
+    color: #6b4322;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 100px;
+}
+.logo:hover::after {
+    content: " 'Kokos' ";
+}
